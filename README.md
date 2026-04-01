@@ -14,6 +14,15 @@ and the Flutter guide for
 TODO: Put a short description of the package here that helps potential users
 know whether this package might be useful for them.
 
+## Layout (desktop / mobile)
+
+Em `lib/src/layout/`:
+
+- **`form_factor.dart`**: `isDesktopFormFactor` / `isMobileFormFactor` (`defaultTargetPlatform`).
+- **`adaptive_module_page.dart`**: `AdaptiveModulePage` — shell com `AppBar` no mobile e barra + conteúdo centralizado (max 1200px) no desktop.
+
+Exportados pelo barrel `package:componentes_lr/componentes_lr.dart`.
+
 ## Features
 
 TODO: List what your package can do. Maybe include images, gifs, or videos.

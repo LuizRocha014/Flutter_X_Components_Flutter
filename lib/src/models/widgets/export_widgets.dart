@@ -6,6 +6,7 @@ export 'code_verification_widget.dart';
 // export 'dropdown_widget.dart';
 export 'erro_popup.dart';
 export 'image_asset.dart';
+export 'image_picker_input_widget.dart';
 export 'invert_button_widget.dart';
 export 'loading_button_widget.dart';
 export 'loading_widget.dart';
